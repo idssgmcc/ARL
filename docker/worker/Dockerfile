@@ -57,7 +57,7 @@ RUN pip3.6 install -r requirements.txt
 
 
 # 定义nuclei版本
-ARG NUCLEI_VERSION=3.2.4
+ARG NUCLEI_VERSION=3.4.2
 
 # 安装nuclei
 RUN wget "https://github.com/projectdiscovery/nuclei/releases/download/v${NUCLEI_VERSION}/nuclei_${NUCLEI_VERSION}_linux_amd64.zip" \
